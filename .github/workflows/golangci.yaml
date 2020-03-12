@@ -7,5 +7,5 @@ jobs:
       steps:
         - uses: actions-contrib/golangci-lint@v1
           with:
-          # golangci-lint docker release tag
-          golangci_lint_version: latest
+            # golangci-lint docker release tag
+            golangci_lint_version: latest
