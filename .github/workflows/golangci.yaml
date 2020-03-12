@@ -5,7 +5,6 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions-contrib/golangci-lint@v1
-      env:
-        GO111MODULE: "on"
+      - uses: actions/checkout@v2
+      - name: Run golangci-lint
+        uses: actions-contrib/golangci-lint@v1
