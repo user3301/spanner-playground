@@ -1,4 +1,5 @@
 name: golangci-lint
+on: pull_request
 uses: actions-contrib/golangci-lint@v1
 with:
   # golangci-lint docker release tag
