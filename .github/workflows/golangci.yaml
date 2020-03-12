@@ -1,10 +1,5 @@
-name: Quality checks
-on: pull_request
-
-jobs:
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - uses: actions-contrib/golangci-lint@v1
-        
+- name: golangci-lint
+  uses: actions-contrib/golangci-lint@v1
+  with:
+    # golangci-lint docker release tag
+    golangci_lint_version: # optional, default is v1.23
