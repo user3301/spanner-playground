@@ -46,6 +46,3 @@ linters:
   
   linters:
     disable:
-  
-  issues:
-    exclude:
