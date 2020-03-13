@@ -1,4 +1,4 @@
-package godigger
+package main
 
 import "fmt"
 
