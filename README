@@ -1,1 +1,21 @@
 SPANNER QUERY BENCHMARKING
+
+Result:
+
+BenchmarkSubquery
+Latency histogram:
+  2.412884ms  : ■■■ (1)
+  4.844929ms  : ■■■■■■■■■■■■■■■■■■■■ (7)
+  7.276975ms  : ■■■ (1)
+  9.70902ms   :
+  12.141066ms :
+  14.573112ms : ■■■ (1)
+
+BenchmarkJoin
+Latency histogram:
+  2.057596ms  : ■■■ (1)
+  3.177606ms  : ■■■■■■■■■■■■■■■■■■■■ (6)
+  4.297617ms  : ■■■■■■■ (2)
+  5.417628ms  :
+  6.537639ms  :
+  7.65765ms   : ■■■ (1)
